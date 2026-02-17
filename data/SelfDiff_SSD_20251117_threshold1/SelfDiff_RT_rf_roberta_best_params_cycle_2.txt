@@ -1,0 +1,15 @@
+Timestep: cycle2
+Best Parameters :
+{'rf__max_depth': 10, 'rf__min_samples_leaf': 1, 'rf__min_samples_split': 2, 'rf__n_estimators': 200}
+
+Mean test score for best parameters : 0.6767168116224932
+Standard deviation of test score : 0.11650385625394155
+
+R2_all : 0.901560930804939
+MAE_all : 0.10647747481377434
+R2_train : 0.9423339061241538
+MAE_train : 0.09362598624120487
+R2_test : 0.7462259716510532
+MAE_test : 0.15777543340176173
+n_train : 950
+n_test : 238

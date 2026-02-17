@@ -6,9 +6,11 @@ Manuscript: TBD with DOI
 
 ## Deliverables
 
-The main output files are:
+The main deliverable files are:
 - `data/processed/SelfDiff_MDmolecules.csv` - Molecule dataset with SMILES, properties, and MD simulation IDs
 - `data/MD/selfdiff/gaff2/diffusion_coefficients_adaptive_full.csv` - Diffusion coefficients extracted from MD simulations
+- `data/processed/skinperm_curation.csv` - Curated skin permeability dataset (447 compounds) with experimental logKp values, SMILES, and experimental conditions (temperature, anatomical location, diffusion cell type, receptor medium)
+- `data/processed/skinperm_references.csv` - Literature references (112 sources) for the skin permeability data with DOIs and citations
 - `data/SelfDiff_SSD_20251117_threshold1/` - Self-supervised distillation (SSD) model outputs including:
   - Trained Random Forest models (`.joblib` files) for each cycle
   - Cross-validation results and test performance metrics
@@ -93,6 +95,8 @@ GitHub_DermaDiff_publish/
 │   │   ├── SelfDiff_MDmolecules.csv
 │   │   ├── SelfDiff_exp_processed.csv
 │   │   ├── SkinPerm_exp_250707_processed.csv
+│   │   ├── skinperm_curation.csv
+│   │   ├── skinperm_references.csv
 │   │   └── chembl_batch1_processed.csv
 │   ├── MD/
 │   │   └── selfdiff/

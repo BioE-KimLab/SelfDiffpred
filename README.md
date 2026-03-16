@@ -2,7 +2,7 @@
 
 This repository contains the data processing pipeline, trained models, and reproducible scripts for predicting molecular self-diffusion coefficients using self-supervised distillation (SSD) with molecular dynamics simulations.
 
-Manuscript: TBD with DOI
+Manuscript: Submitted to Journal of Chemical Information and Modeling.
 
 ## Deliverables
 
